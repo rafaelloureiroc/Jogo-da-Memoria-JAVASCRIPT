@@ -1,0 +1,90 @@
+*{
+    
+    width: auto;
+    height: auto;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+p{
+  display: none;
+}
+body{
+  background-image: url(img/8006.webp);
+}
+#tabuleiro{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    margin: auto;
+  opacity: 1;
+    transition: opacity .1s ease
+}
+
+#tabuleiro.fade{
+  opacity: .1;
+}
+    
+
+#virados{
+ display: flex;
+  flex-wrap: wrap;
+  width: 520px;
+  margin: auto;
+}
+#viradosEmbaralhados{
+  display: flex;
+   flex-wrap: wrap;
+   width: 520px;
+   margin: auto;
+ }
+
+img{
+    width: 130px;
+}
+.btn {
+  align-self: left
+  ;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 0.6em;
+    color:black;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: rgb(252, 4, 4);
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px black inset;
+  }
+  

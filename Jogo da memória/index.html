@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Memória Javascript</title>
+  
+</head>
+<body onload = cartasOrdenadasDesviradas()>
+  
+  <h1>Jogo da memória Javascript</h1>
+  <p>Acertos: <span id="acertos"></span></p>
+  <button  id="refresh"  class="btn"  onclick="criarTabuleiro(reiniciar())">Iniciar/Reiniciar</button>
+  <button id = 'tempo' class="btn"  onclick='time()'>Melhor tempo</button>
+
+  <div id="tabuleiro">
+  <div class="virados" id="virados"></div>
+  <div class="viradosEmbaralhados" id="viradosEmbaralhados"></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script charset="utf8"></script>
+<script src="script.js" charset="utf8"></script>
+</body>
+</html>
